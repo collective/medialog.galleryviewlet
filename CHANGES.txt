@@ -1,6 +1,13 @@
 Changelog
 =========
 
+0.1.13dev (unreleased)
+---------------------
+
+- Still alpha version. Be careful
+- Added alternative profile
+
+
 0.1.1dev (unreleased)
 ---------------------
 
