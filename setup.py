@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-version = '0.1.14'
+version = '0.1.15'
 
 long_description = (
     read('README.txt')
@@ -40,7 +40,7 @@ setup(name='medialog.galleryviewlet',
         'Intended Audience :: Developers',
         ],
       keywords='',
-      author='',
+      author='Espen Moe-Nilssen',
       author_email='',
       url='https://github.com/collective/medialog.galleryviewlet',
       license='gpl',

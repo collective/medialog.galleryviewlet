@@ -21,7 +21,7 @@
       />
 
   <genericsetup:registerProfile
-      name="default"
+      name="alternative"
       title="Gallery viewlet alternative profile"
       directory="profiles/alternative"
       description="Adds a viewlet above the title. to display truegallery"
