@@ -55,6 +55,7 @@ setup(name='medialog.galleryviewlet',
       include_package_data=True,
       zip_safe=False,
       install_requires=['setuptools',
+                        'collective.plonetruegallery'
                         # -*- Extra requirements: -*-
                         ],
       tests_require=tests_require,

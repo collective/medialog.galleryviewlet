@@ -2,16 +2,15 @@ Changelog
 =========
 
 0.1.1dev (unreleased)
--------------------
+---------------------
 
-- First (alpha) version….. be careful
+- First (alpha) version. Be careful
 
 
 0.1dev (unreleased)
 -------------------
 
 - Package created using zopeskel
-  []
 
 
 To do:
