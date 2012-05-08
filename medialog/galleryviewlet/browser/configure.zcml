@@ -16,7 +16,7 @@
     <browser:viewlet
        for="medialog.galleryviewlet.interfaces.IGalleryviewlet"
        name="galleryviewlet"
-       manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+       manager="plone.app.layout.viewlets.interfaces.IAboveContent"
        class=".viewlets.GalleryViewlet"
        permission="zope2.View"
        />
