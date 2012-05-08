@@ -4,7 +4,7 @@ Changelog
 0.1.1dev (unreleased)
 -------------------
 
-- First (alpha) version.
+- First (alpha) version….. be careful
 
 
 0.1dev (unreleased)
