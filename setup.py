@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-version = '0.1.5'
+version = '0.1.9'
 
 long_description = (
     read('README.txt')
@@ -18,11 +18,6 @@ long_description = (
     '**************\n'
     + '\n' +
     read('CHANGES.txt')
-    + '\n' +
-    'Detailed Documentation\n'
-    '**********************\n'
-    + '\n' +
-    read('src', 'medialog', 'galleryviewlet', 'README.txt')
     + '\n' +
     'Contributors\n'
     '************\n'
@@ -47,7 +42,7 @@ setup(name='medialog.galleryviewlet',
       keywords='',
       author='',
       author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      url='https://github.com/collective/medialog.galleryviewlet',
       license='gpl',
       packages=find_packages('src'),
       package_dir = {'': 'src'},
