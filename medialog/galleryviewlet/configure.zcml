@@ -19,7 +19,14 @@
       description="Adds a viewlet to display truegallery"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-  
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Gallery viewlet alternative profile"
+      directory="profiles/alternative"
+      description="Adds a viewlet above the title. to display truegallery"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />  
   <!-- -*- extra stuff goes here -*- -->
 
 </configure>
