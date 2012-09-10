@@ -1,15 +1,11 @@
 from zope.interface import Interface, Attribute
 from zope import schema
 from medialog.galleryviewlet import galleryviewletMessageFactory  as _
-from OFS.interfaces import IItem
 
- 
-import urllib
-from plone.memoize.instance import memoize
-
- 
-from zope.component import getMultiAdapter
- 
+#from plone.memoize.instance import memoize
+#from zope.component import getMultiAdapter
+#from OFS.interfaces import IItem
+#import urllib
 #from collective.plonetruegallery.vocabularies import \
 #    GallerySearchabelTextSourceBinder
 

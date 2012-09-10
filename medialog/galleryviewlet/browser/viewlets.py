@@ -3,17 +3,15 @@ from plone.app.layout.viewlets.common import ViewletBase
 from plone.memoize.instance import memoize
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from zope.interface import implements, Interface
-from Products.CMFCore.utils import getToolByName
+from zope.component import getMultiAdapter
 
 from medialog.galleryviewlet import galleryviewletMessageFactory as _
 from medialog.galleryviewlet.settings import GalleryviewletSettings
 from medialog.galleryviewlet.settings import IGalleryviewletSettings
-from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
-from zope.component import getMultiAdapter
 
-#dont know if all this is needed
-from Products.Five import BrowserView
-from Products.CMFCore.utils import getToolByName
+#dont know if this is needed
+#from Products.Five import BrowserView
+#from Products.CMFCore.utils import getToolByName
 
 
 class GalleryViewlet(ViewletBase):
@@ -37,3 +35,4 @@ class GalleryViewlet(ViewletBase):
 			return portal.restrictedTraverse(path, default=False)
 		except:
 			return False
+			
