@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-This module contains the tool of medialog.galleryviewlet
+This module contains medialog.galleryviewlet, a viewlet to show a plonetruegallery on content
 """
 import os
 from setuptools import setup, find_packages
@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-version = '0.1.16'
+version = '0.1.7'
 
 long_description = (
     read('README.txt')
