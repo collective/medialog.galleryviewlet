@@ -1,6 +1,17 @@
 Changelog
 =========
 
+
+I could need some help with this product :)
+
+
+0.1.17dev (unreleased)
+---------------------
+
+- Still alpha version. Be careful
+- template now loads dropdown.js, I don't know why this is not loading from portal_javascripts as it should
+
+
 0.1.13dev (unreleased)
 ---------------------
 
