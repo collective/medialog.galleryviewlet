@@ -1,4 +1,4 @@
-<metal:page define-macro="master"> 
+ 
   <html>
   <head>
     <div tal:replace="structure provider:plone.htmlhead" />
@@ -6,7 +6,7 @@
     <script type="text/javascript"> 
   </head>
 
-  <body class="galleryviewlet">
+  <div class="galleryviewletpage">
     <div class="noimages" tal:condition="python: view.adapter.number_of_images == 0">
       <p class="discreet" i18n:translate="label_no_images_in_gallery">
         There are no images in this gallery.
@@ -24,6 +24,6 @@
     </tal:batch>
     <tal:subgallery tal:replace="structure view/subgallery_template" />	
  
-  </body>
+  </div>
   </html>
-</metal:page>
+ 
