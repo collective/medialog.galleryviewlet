@@ -3,6 +3,7 @@
   <head>
     <tal:replace tal:replace="structure view/displayer/css" />
     <tal:replace tal:replace="structure view/displayer/javascript" />
+    <script><script type="text/javascript" src ="dropdown.js"></script>
   </head>
 
   <body class="galleryviewlet">
