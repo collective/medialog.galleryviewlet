@@ -53,7 +53,7 @@ class IGalleryviewletSettings(Interface):
     """
     The actual galleryviewlet settings
     """
-    
+     
     gallerypath = schema.TextLine(
         title=_(u"label_width_title_galleryviewlet_setting", default=u"Which Gallery"),
         description=_(u"label_width_description_galleryviewlet_setting", 

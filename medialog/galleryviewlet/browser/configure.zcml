@@ -6,6 +6,18 @@
   <include package="plone.app.contentmenu" />
 
   <!-- -*- extra stuff goes here -*- -->
+  
+  
+    <include package="collective.plonetruegallery" /> 
+    
+
+  <browser:page
+	for="collective.plonetruegallery.interfaces.IGallery"
+    name="viewgallery"
+	class="collective.plonetruegallery.browser.views.galleryview.GalleryView"
+    permission="zope2.View"    
+    template = "viewgallery.pt"  
+    />
 
     <interface
         interface=".interfaces.IThemeSpecific"
