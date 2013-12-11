@@ -9,18 +9,11 @@ from setuptools import setup, find_packages
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-version = '0.2.7'
+version = '0.2.7.2'
 
 long_description = (
     read('README.txt')
-    + '\n' +
-    'Contributors\n'
-    '************\n'
-    + '\n' +
-    read('CONTRIBUTORS.txt')
-    + '\n' +
-    'Download\n'
-    '********\n')
+)
 
 tests_require = ['zope.testing']
 
