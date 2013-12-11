@@ -33,6 +33,14 @@
        permission="zope2.View"
        />
 
+    <browser:viewlet
+       for="medialog.galleryviewlet.interfaces.IGalleryviewlet"
+       name="galleryviewlet_below"
+       manager="plone.app.layout.viewlets.interfaces.IBelowContent"
+       class=".viewlets.GalleryViewlet"
+       permission="zope2.View"
+       />
+
   <browser:page 
     name="enable_gallery"
     for="*"

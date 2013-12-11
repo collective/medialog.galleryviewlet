@@ -3,4 +3,7 @@
  <order manager="plone.abovecontent" skinname="*" >
   <viewlet name="galleryviewlet" />
  </order>
+ <hidden manager="plone.belowcontent" skinname="*" >
+     <viewlet name="galleryviewlet_below" />
+ </hidden>
 </object>
