@@ -9,13 +9,8 @@ from medialog.galleryviewlet import galleryviewletMessageFactory as _
 from medialog.galleryviewlet.settings import GalleryviewletSettings
 from medialog.galleryviewlet.settings import IGalleryviewletSettings
 
-#dont know if this is needed
-#from Products.Five import BrowserView
-#from Products.CMFCore.utils import getToolByName
-
-
 class GalleryViewlet(ViewletBase):
-    render = ViewPageTemplateFile('galleryviewlet.pt')
+    #render = ViewPageTemplateFile('galleryviewlet.pt')
     
     implements(IGalleryviewletSettings)
     
@@ -35,4 +30,11 @@ class GalleryViewlet(ViewletBase):
 			return portal.restrictedTraverse(path, default=False)
 		except:
 			return False
+
+    @property
+    @memoize
+    def galleryposition(self):
+        context=self.context
+        self.settings = GalleryviewletSettings(context)
+        return self.settings.galleryposition
 			

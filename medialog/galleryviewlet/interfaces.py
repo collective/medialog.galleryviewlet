@@ -55,7 +55,13 @@ class IGalleryviewletSettings(Interface):
     """
      
     gallerypath = schema.TextLine(
-        title=_(u"label_width_title_galleryviewlet_setting", default=u"Which Gallery"),
-        description=_(u"label_width_description_galleryviewlet_setting", 
+        title=_(u"label_galleryviewlet_setting", default=u"Which Gallery"),
+        description=_(u"label_galleryviewlet_setting",
         default=u"The path to the gallery you want to  show."),
         required=True)
+
+    galleryposition = schema.Bool(
+        title=_(u"label_position_galleryviewlet_setting", default=u"Below Content?"),
+        description=_(u"label_position_galleryviewlet_setting",
+        default=u""),
+        required=False)

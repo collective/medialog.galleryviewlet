@@ -1,4 +1,0 @@
-<layers>
-    <layer name="medialog.galleryviewlet" 
-           interface="medialog.galleryviewlet.interfaces.IGalleryviewletLayer" />
-</layers>

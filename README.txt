@@ -7,6 +7,15 @@ This is a product that makes it possible to enable a collective.plonetruegallery
 Changelog
 ==========
 
+0.3.1
+------
+Removed the extra profile, since having a setting seems like a better idea.
+
+
+0.3
+------
+Added setting so it is possible to choose where gallery should go (above content or below content)
+
 
 0.2.5
 ------

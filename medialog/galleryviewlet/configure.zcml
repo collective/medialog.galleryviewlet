@@ -19,13 +19,4 @@
       description="Adds a viewlet to display truegallery"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-
-  <genericsetup:registerProfile
-      name="below"
-      title="Gallery viewlet installed below content"
-      directory="profiles/below"
-      description="Adds a viewlet to display truegallery below content"
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      />
-
 </configure>

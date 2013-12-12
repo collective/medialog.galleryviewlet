@@ -30,6 +30,7 @@
        name="galleryviewlet"
        manager="plone.app.layout.viewlets.interfaces.IAboveContent"
        class=".viewlets.GalleryViewlet"
+       template="galleryviewlet.pt"
        permission="zope2.View"
        />
 
@@ -38,6 +39,7 @@
        name="galleryviewlet_below"
        manager="plone.app.layout.viewlets.interfaces.IBelowContent"
        class=".viewlets.GalleryViewlet"
+       template="galleryviewlet_below.pt"
        permission="zope2.View"
        />
 
