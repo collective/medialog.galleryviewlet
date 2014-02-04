@@ -19,7 +19,7 @@ class GalleryviewletSettingsForm(ploneformbase.EditForm):
     form_fields = form.FormFields(IGalleryviewletSettings)
       
     label = _(u'heading_galleryviewlet_settings_form', default=u"Galleryviewlet Settings")
-    description = _(u'description_galleryviewlet_settings_form', default=u"Configure the parameters for this file.")
+    description = _(u'description_galleryviewlet_settings_form', default=u"Configure the parameters the viewlet.")
     form_name = _(u'title_galleryviewlet_settings_form', default=u"Galleryviewlet settings")
     
     
