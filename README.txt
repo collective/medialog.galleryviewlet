@@ -7,6 +7,12 @@ This is a product that makes it possible to enable a collective.plonetruegallery
 Changelog
 ==========
 
+
+0.4 (2013.02.02
+---------------
+Added vobulary so it is possible to choose gallery from drop down menu.
+
+
 0.3.1
 ------
 Removed the extra profile, since having a setting seems like a better idea.

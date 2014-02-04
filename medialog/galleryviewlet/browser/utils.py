@@ -6,7 +6,7 @@ from Products.CMFCore.utils import getToolByName
 
 from plone.app.customerize import registration
 from zope.publisher.interfaces.browser import IBrowserRequest
-from zope.component import getMultiAdapter
+#from zope.component import getMultiAdapter
 
 try:
     #For Zope 2.10.4
@@ -60,7 +60,6 @@ class GalleryviewletUtil(BrowserView):
 
     def enabled(self):
         return IGalleryviewlet.providedBy(self.context)    
-
 
     def view_enabled(self):
         utils = getToolByName(self.context, 'plone_utils')

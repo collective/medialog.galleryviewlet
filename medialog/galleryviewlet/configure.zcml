@@ -19,4 +19,11 @@
       description="Adds a viewlet to display truegallery"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+         
+  <!-- The vocabulary -->    
+  <utility
+    component=".vocabularies.GalleryVocabulary"
+    name="medialog.galleryviewlet.GalleryVocabulary" />
+    
+    
 </configure>

@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-version = '0.3.1'
+version = '0.4'
 
 long_description = (
     read('README.txt')
@@ -43,7 +43,8 @@ setup(name='medialog.galleryviewlet',
       include_package_data=True,
       zip_safe=False,
       install_requires=['setuptools',
-                        'collective.plonetruegallery'
+                        'collective.plonetruegallery',
+                        'plone.api'
                         # -*- Extra requirements: -*-
                         ],
       tests_require=tests_require,
