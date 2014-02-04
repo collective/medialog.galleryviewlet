@@ -8,6 +8,11 @@ Changelog
 ==========
 
 
+0.4.1 (2013.02.02
+---------------
+Typos
+
+
 0.4 (2013.02.02
 ---------------
 Added vobulary so it is possible to choose gallery from drop down menu.
